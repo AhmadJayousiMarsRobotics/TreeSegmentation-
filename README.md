@@ -10,8 +10,6 @@ An optimized, out-of-core Python pipeline for extracting individual tree metrics
 5. [Detailed Function Logic](#detailed-function-logic)
 6. [Algorithm Details](#algorithm-details)
 7. [Output Structure & Formats](#output-structure--formats)
-8. [Additional Details](#additional-details)
-
 ---
 
 ## Features
