@@ -122,7 +122,7 @@ Handles robust reading/writing of spatial data:
 * `write_csv(records, path)`: Dumps flat tabular data of tree metrics.
 * `write_geojson(records, path)` & `write_gpkg(...)`: Generates OGC-compliant spatial vectors representing tree crowns, allowing seamless integration with QGIS or ArcGIS.
 * `write_crown_polygons(...)`: Converts basic radii or convex hulls into Shapely polygon geometries for vector exports.
-* `write_segments(...)`: Crops out individual segmented trees and streams them directly into individual `.laz` files.
+* `write_segments(...)`: Crops out individual segmented trees and streams them directly into `.laz` file.
 * `write_report(...)`: Compiles a detailed summary text file outlining processing times, parameter choices, and a leaderboard of the tallest/widest trees extracted.
 
 ### `cli.py` & `models.py`
@@ -161,6 +161,6 @@ For a sample input file named `cloud85.laz`, the script automatically creates a 
 * **`trees.csv`** - Spreadsheet of extracted trees and their complete geometric attributes.
 * **`trees.gpkg`** - GeoPackage containing geospatial points/polygons, ready for direct loading into QGIS/ArcGIS.
 * **`report.txt`** - Text report summarizing processing time, extraction parameters, and top trees.
-* **`segments/`** - *(optional, requires `--export-segments`)* Directory containing individual `.laz` files for every single extracted tree point cloud.
+* **`segments.laz`** - *(optional, requires `--export-segments`)* a file containing individual extracted tree point cloud.
 
 ---
