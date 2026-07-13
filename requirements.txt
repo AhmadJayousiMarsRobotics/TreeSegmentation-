@@ -1,0 +1,8 @@
+laspy>=2.5.0
+laszip>=0.3.0
+lazrs>=0.8.0
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-image>=0.21.0
+fiona>=1.9.0
+tqdm>=4.65.0
